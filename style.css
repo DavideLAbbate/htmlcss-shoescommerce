@@ -1,0 +1,94 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Utilities */
+.container {
+    margin: 48px auto;
+    width: 900px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.col {
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    display: inline-block;
+    position : relative;
+    margin-bottom: 40px;
+}
+
+.Discount {    
+    background-color: red;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #fff
+}
+
+.eco {
+    margin-left: 5px;
+    background-color: green;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #fff    
+}
+
+.red {
+    color:red;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.delete {
+    text-decoration: line-through;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* Positioning adjustment */
+
+.col h4 {
+    margin-top: 30px;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+/* heart */
+
+.heart{
+    position: absolute;
+    top:0;
+    right:0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: gray;
+    line-height: 40px;
+    text-align: center;
+}
+
+.heart:hover {
+    color:red;
+}
+/* Hover Images */
+
+.item1 {
+    display: none;
+    position : absolute;
+    top: 0;
+    left:0;
+}
+
+.col:hover .item1 {display:block};
+    
+
+
